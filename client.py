@@ -20,7 +20,7 @@ def receiving():
 host = socket.gethostbyname(socket.gethostname())
 port = 0
 
-server = ("192.168.122.1", 9090)
+server = ('localhost', 9090)
 
 clientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 clientSocket.bind((host, port))

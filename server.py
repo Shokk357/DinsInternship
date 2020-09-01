@@ -1,7 +1,7 @@
 import socket
 
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-serverSocket.bind(('192.168.122.1', 9090))
+serverSocket.bind(('localhost', 9090))
 print("Server Started")
 
 isStopped = False
